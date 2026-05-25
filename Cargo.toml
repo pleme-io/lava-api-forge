@@ -1,0 +1,30 @@
+[package]
+authors = ["pleme-io"]
+description = "OpenAPI / AWS botocore service spec → typed tatara-lisp (defapi-operation ...) bindings. Skips the Terraform provider middleman; generates directly from cloud API specs. Output consumed by lava-provider-gen to autogenerate full tfplugin5/6-compatible magma providers."
+edition = "2024"
+license = "MIT"
+name = "lava-api-forge"
+readme = "README.md"
+repository = "https://github.com/pleme-io/lava-api-forge"
+version = "0.1.0"
+
+[lib]
+name = "lava_api_forge"
+path = "src/lib.rs"
+
+[[bin]]
+name = "lava-api-forge"
+path = "src/main.rs"
+
+[lints.clippy]
+pedantic = "warn"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+serde_yaml = "0.9"
+indexmap = { version = "2", features = ["serde"] }
+thiserror = "2"
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"
+lava-forge = { git = "https://github.com/pleme-io/lava-forge", branch = "main" }
