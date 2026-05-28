@@ -163,7 +163,7 @@ dependencies = [
 [[package]]
 name = "lava-forge"
 version = "0.1.1"
-source = "git+https://github.com/pleme-io/lava-forge?branch=main#8e3ad051e2374ce54ab6922fd67eb643f8da9df5"
+source = "git+https://github.com/pleme-io/lava-forge?branch=main#6d879f2846111f9b3bbd2d6b8e525eef230275db"
 dependencies = [
  "anyhow",
  "clap",
@@ -175,9 +175,9 @@ dependencies = [
 
 [[package]]
 name = "memchr"
-version = "2.8.0"
+version = "2.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f8ca58f447f06ed17d5fc4043ce1b10dd205e060fb3ce5b979b8ed8e59ff3f79"
+checksum = "6b947ae49db0d222b1dbc6b113ce7248a3fc3a6ca21b696717bfc000ba4484d8"
 
 [[package]]
 name = "once_cell_polyfill"
