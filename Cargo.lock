@@ -148,7 +148,7 @@ checksum = "8f42a60cbdf9a97f5d2305f08a87dc4e09308d1276d28c869c684d7777685682"
 
 [[package]]
 name = "lava-api-forge"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "anyhow",
  "clap",
@@ -162,8 +162,8 @@ dependencies = [
 
 [[package]]
 name = "lava-forge"
-version = "0.1.1"
-source = "git+https://github.com/pleme-io/lava-forge?branch=main#6d879f2846111f9b3bbd2d6b8e525eef230275db"
+version = "0.1.2"
+source = "git+https://github.com/pleme-io/lava-forge?branch=main#33a92f8dc391b7b19a8b8d20aa8361f5e85b0837"
 dependencies = [
  "anyhow",
  "clap",
