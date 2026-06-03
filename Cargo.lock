@@ -163,7 +163,7 @@ dependencies = [
 [[package]]
 name = "lava-forge"
 version = "0.1.2"
-source = "git+https://github.com/pleme-io/lava-forge?branch=main#33a92f8dc391b7b19a8b8d20aa8361f5e85b0837"
+source = "git+https://github.com/pleme-io/lava-forge?branch=main#1f5bd728f11c87723b042b700cd55d9b038759ff"
 dependencies = [
  "anyhow",
  "clap",
