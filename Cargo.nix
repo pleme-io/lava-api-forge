@@ -453,7 +453,7 @@ rec {
       };
       "lava-api-forge" = rec {
         crateName = "lava-api-forge";
-        version = "0.1.3";
+        version = "0.1.4";
         edition = "2024";
         crateBin = [
           {
@@ -514,8 +514,8 @@ rec {
         workspace_member = null;
         src = pkgs.fetchgit {
           url = "https://github.com/pleme-io/lava-forge";
-          rev = "1f5bd728f11c87723b042b700cd55d9b038759ff";
-          sha256 = "1siah35bznqvmznhx5xxxxipk26533v7s1326ncclmhvzln806sj";
+          rev = "2bccadb19e68378aa409dc056eeff2a374fcb851";
+          sha256 = "10q6v64xcgj98sgin3wcxbdq3pwhgjsfwfblccvsqjlrrj6i8gk9";
         };
         libName = "lava_forge";
         authors = [
