@@ -38,8 +38,8 @@ pub mod spec;
 
 pub use emit::render_service;
 pub use spec::{
-    from_botocore, from_openapi, Method, Operation, ParseError, Service, Shape, ShapeKind,
-    ShapeMember,
+    from_botocore, from_openapi, AuthOverride, AwsAuth, AwsMetadata, AwsProtocol, JsonVersion,
+    Method, Operation, ParseError, Service, Shape, ShapeKind, ShapeMember,
 };
 
 use thiserror::Error;
