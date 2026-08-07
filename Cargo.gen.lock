@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "cargo_lock_sha256": "db4a435fcfc211438484ebac27044cfe9af8d6890fe788a15be83295f73ac446",
+  "cargo_lock_sha256": "1d0f9ab7693aa9b5347cdf8280e03a6f4c54b6167ad5f445534d833f9ea28f92",
   "manifest_sha256": {
-    "Cargo.toml": "ca2229d61bd107343a3588b2fc52fabcee0a333af7343e43368dd8db37cba3a1"
+    "Cargo.toml": "2652196343df469c8bb3f67603f3e23ea0fff7b46fbd37458033b3fb258266b8"
   },
   "target_resolves": {
     "base": {
@@ -116,11 +116,11 @@
           "std"
         ]
       },
-      "clap-4.6.5": {
+      "clap-4.6.6": {
         "runtime_dependencies": [
           {
             "name": "clap_builder",
-            "package_key": "clap_builder-4.6.5",
+            "package_key": "clap_builder-4.6.6",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -151,7 +151,7 @@
           "usage"
         ]
       },
-      "clap_builder-4.6.5": {
+      "clap_builder-4.6.6": {
         "runtime_dependencies": [
           {
             "name": "anstream",
@@ -331,7 +331,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "lava-api-forge-0.1.5": {
+      "lava-api-forge-0.1.6": {
         "runtime_dependencies": [
           {
             "name": "anyhow",
@@ -345,7 +345,7 @@
           },
           {
             "name": "clap",
-            "package_key": "clap-4.6.5",
+            "package_key": "clap-4.6.6",
             "kind": "normal",
             "features": [
               "derive"
@@ -437,7 +437,7 @@
           },
           {
             "name": "clap",
-            "package_key": "clap-4.6.5",
+            "package_key": "clap-4.6.6",
             "kind": "normal",
             "features": [
               "derive"
@@ -905,7 +905,7 @@
       "edition": "2021",
       "build_script": "build.rs"
     },
-    "clap-4.6.5": {
+    "clap-4.6.6": {
       "edition": "2024",
       "binaries": [
         {
@@ -914,7 +914,7 @@
         }
       ]
     },
-    "clap_builder-4.6.5": {
+    "clap_builder-4.6.6": {
       "edition": "2024"
     },
     "clap_derive-4.6.4": {
@@ -945,7 +945,7 @@
     "itoa-1.0.18": {
       "edition": "2021"
     },
-    "lava-api-forge-0.1.5": {
+    "lava-api-forge-0.1.6": {
       "edition": "2024",
       "lib_target": {
         "name": "lava_api_forge",
