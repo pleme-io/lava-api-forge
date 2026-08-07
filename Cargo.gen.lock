@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "cargo_lock_sha256": "e54c0765013a88792569697e81dc4de2e219b44558a8220d0d56def357a4eca7",
+  "cargo_lock_sha256": "db4a435fcfc211438484ebac27044cfe9af8d6890fe788a15be83295f73ac446",
   "manifest_sha256": {
-    "Cargo.toml": "9eb78e38c19a68883a40a217019969e1556e57902b12c5518b2f5dbe4ee5c787"
+    "Cargo.toml": "ca2229d61bd107343a3588b2fc52fabcee0a333af7343e43368dd8db37cba3a1"
   },
   "target_resolves": {
     "base": {
@@ -369,7 +369,7 @@
           },
           {
             "name": "lava_forge",
-            "package_key": "lava-forge-0.1.2-4cd161d9acb7946e853f1b5061a4c9c0398a62bb",
+            "package_key": "lava-forge-0.1.2",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -423,7 +423,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "lava-forge-0.1.2-4cd161d9acb7946e853f1b5061a4c9c0398a62bb": {
+      "lava-forge-0.1.2": {
         "runtime_dependencies": [
           {
             "name": "anyhow",
@@ -958,7 +958,7 @@
         }
       ]
     },
-    "lava-forge-0.1.2-4cd161d9acb7946e853f1b5061a4c9c0398a62bb": {
+    "lava-forge-0.1.2": {
       "edition": "2024",
       "binaries": [
         {
@@ -1038,8 +1038,6 @@
       "build_script": "build.rs"
     }
   },
-  "git_nar_sha256": {
-    "lava-forge-0.1.2-4cd161d9acb7946e853f1b5061a4c9c0398a62bb": "sha256-1LSbU67Fum+4Z39rRpvTWLuULALirJtm8WB8ZI/+Ti8="
-  },
+  "git_nar_sha256": {},
   "flake_metadata": {}
 }

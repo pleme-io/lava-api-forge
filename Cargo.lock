@@ -163,7 +163,8 @@ dependencies = [
 [[package]]
 name = "lava-forge"
 version = "0.1.2"
-source = "git+https://github.com/pleme-io/lava-forge?branch=main#4cd161d9acb7946e853f1b5061a4c9c0398a62bb"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ff441e46f8e38ff6877209f4b299b9228a9e7f14e1b4d9f19d3e6a9aed35e230"
 dependencies = [
  "anyhow",
  "clap",

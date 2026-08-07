@@ -27,4 +27,4 @@ indexmap = { version = "2", features = ["serde"] }
 thiserror = "2"
 clap = { version = "4", features = ["derive"] }
 anyhow = "1"
-lava-forge = { git = "https://github.com/pleme-io/lava-forge", branch = "main" }
+lava-forge = "0.1"
